@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  color: #1b1b1b;
+  display: block;
+  background-color: #fff6df;
+}
+
+.container {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+footer {
+  background-color: #9e9e9e;
+  padding: 2% 0%;
+  color: #ddd;
+  text-align: center;
+}
+
+.btn {
+  text-decoration: none;
+}
+
+/*============= NavBar ============*/
+nav {
+  padding: 3% 5%;
+  background-color: #181818;
+}
+
+nav .logo {
+  color: #fffffe;
+}
+
+#menu {
+  float: right;
+}
+
+#menu ul {
+  list-style: none;
+}
+
+#menu ul li {
+  display: inline-block;
+  margin-right: 10px;
+  background-color: #ddd;
+  padding: 5px 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #222;
+}
+/*===============================*/
+
+/*//////////////JUMBO////////////////*/
+main .jumbotron {
+  padding: 5% 0%;
+  background-color: #d5dfeb;
+}
+
+.jumbotron p {
+  padding: 7px 0px 14px 0px;
+}
+
+.jumbotron a {
+  padding: 10px 20px;
+  border-radius: 4px;
+  color: #ddd;
+  background-color: rgb(22, 78, 197);
+}
+/*//////////////////////////////////*/
+
+/*-------------CONTENT-------------*/
+.linha {
+  margin: 4% 0%;
+  display: grid;
+  grid-template-columns: 33.333% 33.333% 33.333%;
+
+}
+
+.linha p {
+  padding: 7px 0px 14px 0px;
+}
+
+.linha a{
+  padding: 10px 20px;
+  border-radius: 4px;
+  color: #ddd;
+  background-color: rgb(95, 95, 95);
+}
+
+.coluna   {
+  padding: 0% 4%;
+}
+/*---------------------------------*/
+
+/* Mobile */
+@media only screen and (max-width: 700px) {
+  body {
+    background-color: rgb(236, 250, 255);
+  }
+
+  nav {
+    padding: 6% 5%;
+    background-color: #181818;
+  }
+  
+  .btnCont {
+    font-size: 60%;
+  }
+}
+
+/* Tablet */
+@media only screen and (min-width: 701px) {
+  body {
+    background-color: rgb(255, 253, 232);
+  }
+}
+
+/* Desktop */
+@media only screen and (min-width: 1440px) {
+  body {
+      background-color: rgb(255, 213, 213);
+  }
+}
