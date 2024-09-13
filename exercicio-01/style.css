@@ -127,6 +127,6 @@ main .jumbotron {
 /* Desktop */
 @media only screen and (min-width: 1440px) {
   body {
-      background-color: rgb(255, 213, 213);
+      background-color: rgb(255, 255, 255);
   }
 }
