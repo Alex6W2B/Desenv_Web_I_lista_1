@@ -6,7 +6,6 @@
   font-optical-sizing: auto;
   font-style: normal;
   color: #333;
-  box-sizing: border-box;
 }
 
 body {
@@ -56,6 +55,10 @@ input, select {
 
 .hide {
   display: none;
+}
+
+.preencher {
+  min-height: 100vh;
 }
 
 /*To-do Header*/
