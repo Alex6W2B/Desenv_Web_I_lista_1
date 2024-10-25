@@ -1,0 +1,26 @@
+#top {
+    margin-top: 2vh;
+    width: 78%;
+    height: 100%;
+}
+
+#top div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#produto { 
+    width: 78%;
+    margin-top: 6vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+section img {
+    width: 60%;
+    margin-right: 2vw;
+    object-fit: cover;
+    padding: 5px;
+}
