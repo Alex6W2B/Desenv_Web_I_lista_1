@@ -3,19 +3,6 @@ main {
     justify-content: center;
 }
 
-.carrinho {
-    margin-top: 4vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-}
-
-.carrinho h2 {
-    font-size: 2rem;
-    margin-bottom: 3vh;
-}
-
 .pagamento {
     width: 78%;
     margin-top: 4vh;
@@ -107,18 +94,14 @@ form {
 }
 
 /* START BUTTON FINAL */
-.carrinho .final_butt {
-    margin-bottom: 4vh;
-}
-
-.final_butt {
+form .final_butt {
     display: flex;
     width: 100%;
     margin-top: 3vh;
 }
 
 /*--------------*/
-.final_butt .btn1 {
+form .final_butt .btn1 {
     width: 80%;
     margin-right: 7px;
     background-color: #20b000;
@@ -131,25 +114,18 @@ form {
     align-items: center;
     transition: .4s;
 
+    
+    color: #fff;
     font-weight: bold;
 }
-
-.btn1 a {
-    text-decoration: none;
-    color: #fff;
-}
-
-.btn1 a:hover {
-    color: #20b000;
-}
-
-.final_butt .btn1:hover {
+  
+form .final_butt .btn1:hover {
     background-color: #fff;
-    border: 1px solid #20b000;
+    border: 1px solid #20b000;    
     color: #20b000;
 }
 /*--------------*/
-.final_butt .btn2 {
+form .final_butt .btn2 {
     width: 20%;
     background-color: #333;
     border-radius: 5px;
@@ -160,20 +136,16 @@ form {
     align-items: center;
     transition: .4s;
     
+    color: #fff;
     font-weight: bold;
 }
 
-.btn2 a {
-    text-decoration: none;
-    color: #fff;
-}
-
-.final_butt .btn2:hover {
+form .final_butt .btn2:hover {
     background-color: #8e0000;
 }
 /* END BUTTON FINAL */
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 700px) {
     /* START IN BAG */
     .inbag {
         display: flex;
@@ -226,6 +198,8 @@ form {
         display: flex;
         flex-direction: column;
         text-align: center;
+
+        border-bottom: 1px solid #33333371;
     }
 
     .inbag .excluir {
@@ -234,8 +208,6 @@ form {
         display: flex;
         justify-content: center;
         align-items: center;
-
-        border-top: 1px solid #33333371;
     }
     /* END IN BAG */
 }
