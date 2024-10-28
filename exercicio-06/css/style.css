@@ -259,9 +259,10 @@ header .search{
 }
 /*---------------------------------*/
 
-/*START PRODUTO*/
+/*END PRODUTO*/
 
 footer {
+  margin-top: 3vh;
   background-color: #ffffff;
   padding: 2% 0%;
   color: #333;
@@ -269,22 +270,18 @@ footer {
 }
   
 /* Mobile */
-@media only screen and (max-width: 700px) {
-  body {
-    background-color: rgb(255, 255, 255);
+@media only screen and (max-width: 680px) {
+  .produto {
+    width: 100%;
   }
 }
 
 /* Tablet */
-@media only screen and (min-width: 701px) {
-  body {
-    background-color: rgb(255, 255, 255);
-  }
+@media only screen and (min-width: 681px) {
+  
 }
 
 /* Desktop */
-@media only screen and (min-width: 1440px) {
-  body {
-      background-color: rgb(255, 255, 255);
-  }
+@media only screen and (min-width: 1080px) {
+  
 }

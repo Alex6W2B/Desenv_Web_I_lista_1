@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Exercicio 02</title>
+        <link rel="icon" type="image/x-icon" href="/1.jpg">
+        <meta name="description" content="Este site é referente ao segundo exercício de desenvolvimento web" />
+        <meta name="author" content="Alexandre W.Bastiani" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/pagamento.css">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <script src="./js/main.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <section>
+                <a href="/exercicio-06/index.html"><img class="logo" src="/exercicio-06/img/DeOlhO-FundoVazado.png" alt=""></a>
+        
+                <div>
+                <button class="" href="">
+                    <a href="/exercicio-06/carrinho.html"><i class="fa-solid fa-shopping-bag"></i></a>
+                </button>
+            
+                <button class="" href="">
+                    <a href="/exercicio-06"><i class="fa-solid fa-person"></i></a>
+                </button>
+                </div>
+            </section>
+        </header>
+        <main>
+            <div class="container pagamento">
+                <h2 class="">Finalizar compra</h2>
+    
+                <form action="#">
+                    <section class="inbag">
+                        <div class="prod">
+                            <img src="img/orient_1.webp" class="" alt="...">
+                            <p class="">Orient</p>
+                            <h5 class="">Relógio automático solartech</h5>
+                            <p class="value">Valor unitário <b>R$50,00</b></p>
+                        </div>
+
+                        <div class="quant-itens">
+                            <label for="quantidade-itens">Quantidade</label>
+                            <select class="form-control" id="quantidade-itens">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                        </div>
+
+                        <div class="val_total">
+                            <p>Total a pagar:</p>
+                            <strong class="fs-3">
+                                R$50,00
+                                <span class="d-blok fs-6 text-warning"><br>Ou em 12x sem juros</span>
+                            </strong>
+                        </div>
+
+                        <div class="excluir">
+                            <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="25px" height="25px" fill="currentColor" class="bi bi-x-circle-fill text-muted" viewBox="0 0 16 16">
+                                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </section>
+    
+                    <section class="form1">
+                        <div>
+                            <label for="nomeId">Nome:</label> 
+                            <input type="text" name="nome" id="nomeId" placeholder="Nome Sobrenome">
+                        </div>
+                        
+                        <div>
+                            <label for="dataNascimentoId">Data nascimento:</label>
+                            <input type="date"name="dataNascimento" id="dataNascimentoId">
+                        </div>
+        
+                        <div>
+                            <label for="emailId">Email:</label>
+                            <input type="Email" name="email" id="emailId" placeholder="name@gmail.com">
+                        </div>
+        
+                        <div>
+                            <label for="senha1Id">CPF:</label>
+                            <input type="text" name="senha1" id="senha1Id" placeholder="896.512.748-03">
+                        </div>
+        
+                        <div>
+                            <label for="senha2Id" >CEP:</label>
+                            <input type="text" name="senha2" id="senha2Id" placeholder="89595-000">
+                        </div>
+    
+                        <div class="receber">
+                            <input type="checkbox" name="noticias" id="noticiasId">
+                            <label for="noticiasId">Receber novidades da loja</label>
+                        </div>
+                    </section>
+    
+                    <div class="form2">
+                        <div>
+                            <label>Escolha a forma de pagamento</label>  
+                            <div class="form_pag">
+                                <input type="radio"> 
+                                <label>
+                                    <img class="pag" src="img/pix.png" alt="">
+                                </label>
+
+                                <input type="radio"> 
+                                <label>
+                                    <img class="pag" src="img/boleto.png" alt="">
+                                </label>
+
+                                <input type="radio"> 
+                                <label>
+                                    <img class="pag" src="img/cartao.png" alt="">
+                                </label>  
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="final_butt">
+                        <button class="btn1">Finalizar pedido</button>
+                        <button class="btn2">Cancelar</button>
+                    </div>
+                </form>
+            </div>
+  
+        </main>
+        <footer>
+            <p>© ALEXANDRE_WILLIAN_DE_BASTIANI 2024</p>
+        </footer>
+    </body>
+</html>

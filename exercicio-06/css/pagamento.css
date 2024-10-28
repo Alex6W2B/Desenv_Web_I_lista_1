@@ -1,0 +1,142 @@
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.pagamento {
+  width: 78%;
+  margin-top: 4vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.pagamento h2 {
+    font-size: 2rem;
+    margin-bottom: 2vh;
+}
+
+/* START IN BAG */
+.inbag {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 6vh;
+}
+
+.inbag .prod {
+    width: 35%;
+    padding: 1rem;
+}
+
+.inbag .prod img {
+    width: 100%;
+    margin-bottom: 2vh;
+}
+
+.inbag .quant-itens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inbag .quant-itens select {
+    width: 100%;
+    margin-top: 5px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+/* END IN BAG */
+
+.form1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.form1 div {
+    margin-bottom: 1vh;
+}
+
+.form1 input {
+    border: 1px solid #333;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.form1 .receber {
+    display: flex;
+    margin-block: 3vh;
+}
+
+.form1 .receber input {
+    max-width: 15px;
+    align-self: center;
+    margin-right: 1vw;
+}
+
+.form_pag {
+    display: flex;
+    align-items: center;
+}
+
+.form_pag .pag{
+    margin-left: 0.5vw;
+    width: 60%;
+}
+
+/* START BUTTON FINAL */
+form .final_butt {
+    display: flex;
+    width: 100%;
+    margin-top: 3vh;
+}
+
+/*--------------*/
+form .final_butt .btn1 {
+    width: 80%;
+    margin-right: 7px;
+    background-color: #333;
+    border: 1px solid #3d014f00;
+    border-radius: 5px;
+    padding: 0.50rem 0.75rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .4s;
+
+    
+    color: #fff;
+    font-weight: bold;
+}
+  
+form .final_butt .btn1:hover {
+    background-color: #fff;
+    border: 1px solid #333;    
+    color: #333;
+}
+/*--------------*/
+form .final_butt .btn2 {
+    width: 20%;
+    background-color: #333;
+    border-radius: 5px;
+    padding: 0.50rem 0.75rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .4s;
+    
+    color: #fff;
+    font-weight: bold;
+}
+
+form .final_butt .btn2:hover {
+    background-color: #8b00b5;
+}
+/* END BUTTON FINAL */
